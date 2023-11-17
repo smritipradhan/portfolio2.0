@@ -1,0 +1,94 @@
+.projectContainer {
+  margin-top: 200px;
+  display: flex;
+  gap: 200px;
+  padding-right: 200px;
+  position: relative;
+  padding: 0px 100px;
+  flex-wrap: wrap;
+}
+
+.projectImage {
+  height: 350px;
+  width: 600px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-image: url(./../../assets/images/spotify-clone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: sepia(100%) hue-rotate(190deg) saturate(100%);
+}
+
+.projectImage:hover {
+  height: 350px;
+  width: 600px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-image: url(./../../assets/images/spotify-clone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: unset;
+}
+
+.subheading {
+  font-size: 15px;
+  color: #66fcf1;
+  padding-top: 30px;
+  font-family: monospace;
+  text-align: end;
+}
+
+.heading {
+  font-size: 25px;
+  color: white;
+  font-family: monospace;
+}
+
+.projectDesp {
+  background-color: #18234f;
+  max-width: 418px;
+  color: rgb(162, 199, 215);
+  position: absolute;
+  right: 150px;
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 28px;
+}
+.aboutProject {
+}
+
+.projectContainerRight {
+  margin-top: 200px;
+  display: flex;
+  gap: 200px;
+  padding-right: 200px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.projectDespRight {
+  background-color: #18234f;
+  max-width: 418px;
+  color: rgb(162, 199, 215);
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 28px;
+  position: absolute;
+  z-index: 1;
+}
+
+.subheadingRight {
+  font-size: 15px;
+  color: #66fcf1;
+  padding-top: 30px;
+  font-family: monospace;
+  text-align: start;
+}

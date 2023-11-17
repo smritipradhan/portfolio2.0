@@ -1,0 +1,16 @@
+.menuIcon {
+  color: #66fcf1;
+  font-size: xx-large;
+  &.css-i4bv87-MuiSvgIcon-root {
+    font-size: 40px;
+  }
+  cursor: pointer;
+}
+.menu {
+  padding: 10px 50px;
+}
+
+.menuItems {
+  color: white;
+  font-size: 20px;
+}
