@@ -1,6 +1,5 @@
 import "./App.css";
-import Lottie from "lottie-react";
-import groovyWalkAnimation from "./assets/json/animation.json";
+
 import Typewriter from "typewriter-effect";
 // import AnimatedCursor from "react-animated-cursor";
 // import Github from "./githubdark.svg";
@@ -18,11 +17,7 @@ const App = () => {
   return (
     <div className="App">
       {/* <Menus /> */}
-      <Lottie
-        animationData={groovyWalkAnimation}
-        loop={true}
-        style={{ height: 400 }}
-      />
+
       {/* 
       <AnimatedCursor
         innerSize={8}

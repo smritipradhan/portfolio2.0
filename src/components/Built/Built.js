@@ -25,7 +25,7 @@ const Built = () => {
         </div>
       </div>
 
-      <div className="projectContainerRight">
+      {/* <div className="projectContainerRight">
         <div className="aboutProject">
           <div className="subheadingRight"> Featured Project</div>
           <div className="heading"> Spotify Clone</div>
@@ -53,7 +53,7 @@ const Built = () => {
             handled by controlling the open prop.
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
